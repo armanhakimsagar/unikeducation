@@ -4,7 +4,7 @@
 
 This website designer & developed 
 Arman hakim sagar
-
+       
 
 ////////////////////////////////
 
@@ -14,7 +14,7 @@ Arman hakim sagar
 <html lang="en">
     <style>
         .contact_area{
-            height:500px!important;
+            height:800px!important;
         }
         *{
             font-family: Arial, Helvetica, sans-serif !important;
@@ -34,10 +34,8 @@ Arman hakim sagar
 	    
 		<!-- Bootstrap css file -->
 
-	   	<link rel="stylesheet" href="{{ asset('front_view/bootstrap.min.css') }}">
+	   	<link rel="stylesheet" href="http://priyofashion.com/css/boot.css">
 
-		<!-- font-awesome css file -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<!-- animate css file -->
 		<link rel="stylesheet" href="{{ asset('front_view/animate.css') }}">
@@ -96,10 +94,11 @@ Arman hakim sagar
 
 							<div class="social-link">
 								<ul>
-									<li><a href="#" style="color:#fff"><i class="fa fa-facebook" aria-hidden="true"></i> facebook</a></li>
-									<li ><a href="#" style="color:#fff"><i class="fa fa-twitter" aria-hidden="true"></i> google +</a></li>
-									<li><a href="#" style="color:#fff"><i class="fa fa-youtube" aria-hidden="true"></i> youtube </a></li>
-									<li><a href="#" style="color:#fff"><i class="fa fa-youtube" aria-hidden="true"></i> Skype </a></li>
+									<li><a href="https://www.facebook.com/unik.edu.injapan" style="color:#fff"><i class="fa fa-facebook" aria-hidden="true"></i> facebook</a></li>
+									<li ><a href="https://www.youtube.com/channel/UC6K2xXWg19wl__W_Ww1D4EA?view_as=subscriber" style="color:#fff"><i class="fa fa-twitter" aria-hidden="true"></i> youtube </a></li>
+									<li><a href="https://plus.google.com/115462666860565861972" style="color:#fff"><i class="fa fa-youtube" aria-hidden="true"></i> google + </a></li>
+									<li><a href="https://www.instagram.com/unik_education/" style="color:#fff"><i class="fa fa-youtube" aria-hidden="true"></i> Instagram </a></li>
+									<li><a href="https://twitter.com/EducationUnik" style="color:#fff"><i class="fa fa-youtube" aria-hidden="true"></i> Twitter </a></li>
 								</ul>
 							</div>
 						</div>
@@ -122,12 +121,12 @@ Arman hakim sagar
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						</button>
-						<a href="index.html"><img src="{{ asset('public/logo.jpg') }}" alt="Unik Education" style="height:60px; width:80px;padding:0px"></a>
+						<a href="{{ url('/') }}"><img src="{{ asset('public/logo.jpg') }}" alt="Unik Education" style="height:60px; width:80px;padding:0px"></a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="active smoth-scroll"><a href="index.html#home"><h5><b>Home</b></h5></a></li>
+							<li class="active smoth-scroll"><a href="#home"><h5><b>Home</b></h5></a></li>
 							<li class="smoth-scroll"><a href="#about" class="animte_nav"><h5><b>About</b></h5></a></li>
 							<li class="smoth-scroll"><a href="#service" class="animte_nav"><h5><b>Service</b></h5></a></li>
 							<li class="smoth-scroll"><a href="#team" class="animte_nav"><h5><b>Team</b></h5></a></li>
@@ -164,34 +163,39 @@ Arman hakim sagar
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
 			  <div class="item active">
-				<img src="{{ asset('public/s1.JPG') }}" alt="Los Angeles" style="width:100%;height:650px">
+				<img src="{{ asset('public/s1.png') }}" alt="Los Angeles" style="width:100%;height:550px">
 			  </div>
 
 			  <div class="item">
-				<img src="{{ asset('public/s2.JPG') }}" alt="Chicago" style="width:100%;height:650px">
+				<img src="{{ asset('public/s2.png') }}" alt="Chicago" style="width:100%;height:550px">
 			  </div>
 			
 			  <div class="item">
-				<img src="{{ asset('public/s3.JPG') }}" alt="New york" style="width:100%;height:650px">
+				<img src="{{ asset('public/s3.png') }}" alt="New york" style="width:100%;height:550px">
 			  </div>
 
 			  <div class="item">
-				<img src="{{ asset('public/s4.JPG') }}" alt="New york" style="width:100%;height:650px">
+				<img src="{{ asset('public/s4.png') }}" alt="New york" style="width:100%;height:550px">
 			  </div>
-
-
+			  
 			  <div class="item">
-				<img src="{{ asset('public/s8.jpg') }}" alt="New york" style="width:100%;height:650px">
+				<img src="{{ asset('public/s5.png') }}" alt="New york" style="width:100%;height:550px">
 			  </div>
+			  
+			  <div class="item">
+				<img src="{{ asset('public/s6.png') }}" alt="New york" style="width:100%;height:550px">
+			  </div>
+
+
 			</div>
 
 			<!-- Left and right controls -->
 			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-			  <span class="glyphicon glyphicon-chevron-left"></span>
+			  <span class=""></span>
 			  <span class="sr-only">Previous</span>
 			</a>
 			<a class="right carousel-control" href="#myCarousel" data-slide="next">
-			  <span class="glyphicon glyphicon-chevron-right"></span>
+			  <span class=""></span>
 			  <span class="sr-only">Next</span>
 			</a>
 		  </div>
@@ -209,7 +213,7 @@ Arman hakim sagar
 							<h3>About US</h3>
 							<h4>Your guide to overseas studies</h4>
 							<p class="mt30 about_pra">
-UNIK EDUCATION is an overseas educational consultancy organization, dedicated towards providing educational avenues abroad to the students in Bangladesh. UNIK EDUCATION is founded by a group of competent and highly motivated professionals from different sectors including overseas education, language training and overseas job placement. The panel is committed to bring on excellence by providing the students with world-class education solution through effective and professional advice for parents and their children who would like to study abroad. <a href="{{ url('about_more') }}">Read More</a></a></p>
+UNIK EDUCATION is an overseas educational consultancy organization, dedicated towards providing educational avenues abroad to the students in Bangladesh. UNIK EDUCATION is founded by a group of competent and highly motivated professionals from different sectors including overseas education, language training and overseas job placement. The panel is committed to bring on excellence by providing the students with world-class education solution through effective and professional advice for parents and their children who would like to study abroad. <a href="{{ url('about_more') }}" class="label label-success">Read More</a></a></p>
 							
 						</div>
 						<!-- about_content end -->
@@ -236,7 +240,7 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 				<div class="row">
 					<div class="col-md-4 col-sm-6 col-xs-12">
 					    <!-- service_single_item start -->
-							<a href="{{ url('service') }}">
+							<a href="{{ url('liftlet_japan') }}">
 								<div class="service_icon textcenter" style="height:250px;width:100%;">
 									<img src="{{ asset('public/japann.png') }}" style="height:250px;width:250px">
 								</div>
@@ -245,24 +249,25 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 							</a>
 						<!-- service_single_item End -->
 					</div>
-
-					<div class="col-md-4 col-sm-6 col-xs-12">
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-12">
 					    <!-- service_single_item start -->
-							<a href="{{ url('service') }}">
+							<a href="{{ url('liftlet_europe') }}">
 								<div class="service_icon textcenter" style="height:250px;width:100%;">
-									<img src="{{ asset('public/china.jpg') }}" style="height:250px;width:250px">
+									<img src="{{ asset('public/europe.png') }}" style="height:250px;width:250px">
 								</div>
 								<br>
-								<h4  align="center">China </h4>
+								<h4 align="center">Europe </h4>
 								</a>
 						<!-- service_single_item End -->
 					</div>
+					
 
 					<div class="col-md-4 col-sm-6 col-xs-12">
 					    <!-- service_single_item start -->
-						<a href="{{ url('service') }}">
+						<a href="{{ url('liftlet_korea') }}">
 							<div class="service_icon textcenter" style="height:250px;width:100%;">
-								<img src="{{ asset('public/korea.jpg') }}" style="height:250px;width:250px">
+								<img src="{{ asset('public/korea.png') }}" style="height:250px;width:250px">
 							</div>
 							<br>
 							<h4 align="center">Korea </h4>
@@ -271,23 +276,25 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 					</div>
 				</div>
 				<div class="row" style="margin-top:50px">
-					<div class="col-md-4 col-sm-6 col-xs-12">
+				    
+				    <div class="col-md-4 col-sm-6 col-xs-12">
 					    <!-- service_single_item start -->
-							<a href="{{ url('service') }}">
+							<a href="{{ url('liftlet_china') }}">
 								<div class="service_icon textcenter" style="height:250px;width:100%;">
-									<img src="{{ asset('public/europe.jpg') }}" style="height:250px;width:250px">
+									<img src="{{ asset('public/china.png') }}" style="height:200px;width:250px;margin-top:30px">
 								</div>
 								<br>
-								<h4 align="center">Europe </h4>
+								<h4  align="center">China </h4>
 								</a>
 						<!-- service_single_item End -->
 					</div>
+					
 
 					<div class="col-md-4 col-sm-6 col-xs-12">
 					    <!-- service_single_item start -->
-						<a href="{{ url('service') }}">
+						<a href="{{ url('liftlet_sweden') }}">
 							<div class="service_icon textcenter" style="height:250px;width:100%;">
-								<img src="{{ asset('public/sweden.jpg') }}" style="height:250px;width:250px">
+								<img src="{{ asset('public/sweden.png') }}" style="height:200px;width:250px;margin-top:30px">
 							</div>
 							<br>
 							<h4 align="center">Sweden</h4>
@@ -297,9 +304,9 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 
 					<div class="col-md-4 col-sm-6 col-xs-12">
 					    <!-- service_single_item start -->
-						<a href="{{ url('service') }}">
+						<a href="{{ url('liftlet_hungary') }}">
 							<div class="service_icon textcenter" style="height:250px;width:100%;">
-								<img src="{{ asset('public/hungary.png') }}" style="height:250px;width:250px">
+								<img src="{{ asset('public/hungary.svg') }}" style="height:200px;width:250px;margin-top:30px">
 							</div>
 							<br>
 							<h4 align="center">Hungary</h4>
@@ -351,7 +358,7 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 						        <h3>Md. Nashir Uddin</h3><br>
 						        <h6>+8801968666111, +8801968666222 </h6> <br>
 						        <h6>Email : info@unikedubd.com</h6>
-						        <p> <button onClick="hide_func_1()" style="height:20px;width:50px;float:right;background-color:#f00;border:0px; color:#fff; margin:20px 0px 20px 0px">Close</button><br><br></p>
+						        <p> <button onClick="hide_func_1()"   class="btn btn-denger" style="float:right;background-color:#f00;color:#fff">Close</button><br><br></p>
 
 						      </div>
 						    </div>
@@ -369,7 +376,7 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 						        <h3>Mohammad Hossain</h3><br>
 						        <h6>+8801968666111, +8801968666222 </h6><br>
 						        <h6>Email : info@unikedubd.com</h6>
-						        <p> <button onClick="hide_func_2()" style="height:20px;width:50px;float:right;background-color:#f00;border:0px; color:#fff; margin:20px 0px 20px 0px">Close</button><br><br></p>
+						        <p> <button onClick="hide_func_2()"  class="btn btn-denger" style="float:right;background-color:#f00;color:#fff">Close</button><br><br></p>
 
 						      </div>
 						    </div>
@@ -387,7 +394,7 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 						        <h3>Lutfor Rahman</h3><br>
 						        <h6>+8801968666111, +8801968666222 </h6><br>
 						        <h6>Email : info@unikedubd.com</h6>
-						        <p> <button onClick="hide_func_3()" style="height:20px;width:50px;float:right;background-color:#f00;border:0px; color:#fff; margin:20px 0px 20px 0px">Close</button><br><br></p>
+						        <p> <button onClick="hide_func_3()" class="btn btn-denger" style="float:right;background-color:#f00;color:#fff">Close</button><br><br></p>
 
 						      </div>
 						    </div>
@@ -406,7 +413,7 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 						        <h3>Afsana Rouf Tarin</h3><br>
 						        <h6>+8801968666111, +8801968666222 </h6><br>
 						        <h6>Email : info@unikedubd.com</h6>
-						        <p> <button onClick="hide_func_4()" style="height:20px;width:50px;float:right;background-color:#f00;border:0px; color:#fff; margin:20px 0px 20px 0px">Close</button><br><br></p>
+						        <p> <button onClick="hide_func_4()"  class="btn btn-denger" style="float:right;background-color:#f00;color:#fff">Close</button><br><br></p>
 
 						      </div>
 						    </div>
@@ -422,12 +429,12 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 							<!-- single team_item start -->
 							    <div class="single_team_item" onClick="show_func_1()">
 							    	<div class="team_img floatleft">
-							    		<img src="{{ asset('public/e1.jpg') }}" alt="Team member" style="width:270px;height:300px">
+							    		<img src="{{ asset('public/e1.jpg') }}" alt="Team member" style="width:270px;height:350px">
 							    		<div class="team_hover">
 							    			<div class="team_hover_content">
 							    				<h4>Md. Nashir Uddin</h4>
 							    				<i class="fa fa-laptop" aria-hidden="true"></i>
-							    				<p>Director</p>
+							    				<p></p>
 							    			</div>
 							    		</div>
 							    	</div>
@@ -441,12 +448,12 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 							<!-- single team_item start -->
 							    <div class="single_team_item" onClick="show_func_2()">
 							    	<div class="team_img floatleft">
-							    		<img src="{{ asset('public/e2.jpg') }}" alt="Team member" style="width:270px;height:300px">
+							    		<img src="{{ asset('public/e2.jpg') }}" alt="Team member" style="width:270px;height:350px">
 							    		<div class="team_hover">
 							    			<div class="team_hover_content">
 							    				<h4>Mohammad Hossain</h4>
 							    				<i class="fa fa-laptop" aria-hidden="true"></i>
-							    				<p>Developer</p>
+							    				<p></p>
 							    			</div>
 							    		</div>
 							    	</div>
@@ -461,12 +468,12 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 							<!-- single team_item start -->
 							    <div class="single_team_item" onClick="show_func_3()">
 							    	<div class="team_img floatleft">
-							    		<img src="{{ asset('public/e3.jpg') }}" alt="Team member" style="width:270px;height:300px">
+							    		<img src="{{ asset('public/e3.jpg') }}" alt="Team member" style="width:270px;height:350px">
 							    		<div class="team_hover">
 							    			<div class="team_hover_content">
 							    				<h4>Lutfor Rahman</h4>
 							    				<i class="fa fa-laptop" aria-hidden="true"></i>
-							    				<p>Director</p>
+							    				<p></p>
 							    			</div>
 							    		</div>
 							    	</div>
@@ -515,59 +522,56 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 
 
 							<div class="mix gallery_img web">
-								<img src="{{ asset('public/p1.jpg') }}">
+								<img src="{{ asset('public/2.jpg') }}">
 							</div>
 
 
 							<div class="mix gallery_img web">
-								<img src="{{ asset('public/p2.jpg') }}">
+								<img src="{{ asset('public/3.jpg') }}">
 							</div>
 
 
 							<div class="mix gallery_img web">
-								<img src="{{ asset('public/p3.jpg') }}">
+								<img src="{{ asset('public/4.jpg') }}">
 							</div>
 
 
 							<div class="mix gallery_img web">
-								<img src="{{ asset('public/p4.jpg') }}">
+								<img src="{{ asset('public/13.jpg') }}">
 							</div>
 
 								<a href="{{ url('photo_gallery') }}" class="btn btn-success web" style="color:#fff">Click Here View All Photo</a>
 							<hr> 
-							<div class="mix gallery_img print">
 
-								<iframe width="100%"  height="365" src="https://www.youtube.com/embed/Lb4IcGF5iTQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
-								<a class="gallery_shape" title="Art Office Design" href="https://www.youtube.com/embed/Lb4IcGF5iTQ">
+							
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/PXXGhw3grK4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								
+								    <a href="https://www.youtube.com/embed/PXXGhw3grK4">
 									<i class="fa fa-plus" aria-hidden="true"></i>
 								</a>
 							</div>
-
-							<div class="mix gallery_img print">
-
-								<iframe width="100%"  height="365" src="https://www.youtube.com/embed/tnBQmEqBCY0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
-								<a class="gallery_shape" title="Art Office Design" href="https://www.youtube.com/embed/tnBQmEqBCY0">
+							
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/YQBE-4kx7Mc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								
+								    <a href="https://www.youtube.com/embed/YQBE-4kx7Mc">
 									<i class="fa fa-plus" aria-hidden="true"></i>
 								</a>
 							</div>
-
-
-							<div class="mix gallery_img print">
-
-								<iframe width="100%"  height="365" src="https://www.youtube.com/embed/Lb4IcGF5iTQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
-								<a class="gallery_shape" title="Art Office Design" href="https://www.youtube.com/embed/Lb4IcGF5iTQ">
+							
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/0LAwFRgmjSE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								    <a href="https://www.youtube.com/embed/0LAwFRgmjSE">
 									<i class="fa fa-plus" aria-hidden="true"></i>
 								</a>
 							</div>
-
-							<div class="mix gallery_img print">
-
-								<iframe width="100%"  height="365" src="https://www.youtube.com/embed/tnBQmEqBCY0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
-								<a class="gallery_shape" title="Art Office Design" href="https://www.youtube.com/embed/tnBQmEqBCY0">
+							
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/SYoHhG-i788" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								
+								    <a href="https://www.youtube.com/embed/SYoHhG-i788">
 									<i class="fa fa-plus" aria-hidden="true"></i>
 								</a>
 							</div>
@@ -598,17 +602,17 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 
 
 							<div class="col-lg-4">
-								<img src="{{ asset('public/1.jpg') }}">
+								<img src="{{ asset('public/p42.jpg') }}">
 							</div>
 
 
 							<div class="col-lg-4">
-								<img src="{{ asset('public/2.jpg') }}">
+								<img src="{{ asset('public/p45.jpg') }}">
 							</div>
 
 
 							<div class="col-lg-4">
-								<img src="{{ asset('public/3.jpg') }}">
+								<img src="{{ asset('public/p52.jpg') }}">
 							</div>
 							<a href="{{ url('all_photo') }}" class="btn btn-success web" style="color:#fff; margin-top:20px">Click Here View Testimonial</a>
 					
@@ -758,17 +762,19 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="col-md-12 col-sm-12 col-xs-6">
 						<!-- contact_dtl end -->
 
 						<!-- google_amp start -->
-						<div class="google_map mt100">
+						<div class="google_map">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.168863948664!2d90.38044595015913!3d23.741356984518205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7605aaaab%3A0xd97071d4736b671c!2sUNIK+Education!5e0!3m2!1sen!2sbd!4v1530852148247" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 						<!-- google_map end -->
 					</div>
+				</div>	
+				<div class="row">
 					<div class="col-md-6 col-sm-6 col-xs-6">
-					    <br><br><br>
+					    <br><br>
 					    <h3> Send Us Message </h3>
 					    @if(Session::has('message'))
                         <p class="alert alert-info">{{ Session::get('message') }}</p>
@@ -785,12 +791,39 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
                             <input type="email" name="email" class="form-control" id="email">
                           </div>
                           <div class="form-group">
-                            <label for="pwd">Content:</label>
+                            <label for="email">Mobile:</label>
+                            <input type="email" name="mobile" class="form-control" id="email">
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Message:</label>
                             <textarea class="form-control" id="textarea" name="textarea"></textarea>
                           </div>
                           <button type="submit" class="btn btn-default">Send</button>
                         </form> 
 						<!-- google_map end -->
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+					    <br><br><br><br><br>
+					    <div class="panel panel-primary">
+                          <div class="panel-heading">UNIK Education Bangladesh Office</div>
+                          <div class="panel-body">
+                            House #1, Road #5, Dhanmonni, Dhaka-1209, Bangladesh
+                            Phone +8801999935739, +8801968666111, +8801968666222</div>
+                        </div>
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">UNIK Education Malaysia Office</div>
+                          <div class="panel-body">
+                              Lot- 2-4, 2nd Floor, Kompleks Mutiara, Jalan ipoh, Kuala Lumpur, Malaysia. 
+                          </div>
+                        </div>
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">UNIK Education Japan Office</div>
+                          <div class="panel-body">
+                            1-22-2 # 300 3rd Floor, Tokyo-to, Kita-ku, Tokyo-114-0002, Japan.
+                            Phone- +818066673320, +819077058380
+                        </div>
+                        </div>
+					</div>
 					</div>
 				</div>
 			</div>
@@ -805,7 +838,7 @@ UNIK EDUCATION is an overseas educational consultancy organization, dedicated to
 				<div class="row">
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="copy_right_content">
-							<p>© 2017. All Rights Reserved  By <a href="#">Unik Education</a> <br>
+							<p>© 2012. All Rights Reserved  By <a href="#">Unik Education</a> <br>
 								<span style="font-size:8px"><a href="https://www.linkedin.com/in/armanhakimsagar/">Develop by Arman Hakim Sagar</a></span>
 						   </p>
 						</div>
